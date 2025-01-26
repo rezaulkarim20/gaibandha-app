@@ -1,4 +1,4 @@
-import BannarImages from "../assets/images/gaibandha.jpeg";
+import BannarImages from "../assets/images/gai.jpg";
 const Banner = () => {
   return (
     <div>

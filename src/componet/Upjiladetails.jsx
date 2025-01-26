@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import cartImage from "../assets/images/gaibandha.jpeg";
+import cartImage from "../assets/images/0000.jpeg";
 const Upjiladetails = ({
   title,
   Area,
@@ -15,9 +15,9 @@ const Upjiladetails = ({
         title: {title}
       </h2>
       <p>
-        <span>
-          <img className="w-full" src={cartImage} alt="image" />
-        </span>
+        <span>{cartImage}</span>
+      </p>
+      <p>
         <span className="font-semibold">Area: </span>
         {Area}
       </p>
